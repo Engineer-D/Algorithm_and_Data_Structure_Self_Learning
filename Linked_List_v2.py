@@ -28,6 +28,9 @@ class LinkedList(object):
             self.head = new_element
     
     def printlist(self):
+        if self.head is None:
+            print("List is Empty")
+            return
         current = self.head
         while current.next:
             print(current.value)
