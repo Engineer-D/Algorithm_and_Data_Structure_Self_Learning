@@ -34,6 +34,33 @@ class LinkedList(object):
         else:
             print('Empty Linked List')
 
+def mergesorted(l1, l2, m):
+    current1 = l1.head
+    current2 = l2.head
+    merger = m
+
+    while True:
+        if current1 is None:
+            merger.append(current2)
+            break
+
+        if current2 is None:
+            merger.append(current1)
+            break
+
+        if current1.value < current2.value:
+            current1Next = current1.next
+            current1.next =  None
+            merger.append(current1)
+            current1 = current1Next
+        else:
+            current2Next = current2.next
+            current2.next = None
+            merger.append(current2)
+            current2 = current2Next
+    
+    return m.printlist() 
+
 # Nodes
 L1_node1 = Node(1)
 L1_node2 = Node(3)
@@ -54,3 +81,7 @@ linkedlist2.append(L2_node3)
 
 linkedlist1.printlist()
 linkedlist2.printlist()
+
+mergerlist = LinkedList()
+
+mergesorted(linkedlist1, linkedlist2, mergerlist)
