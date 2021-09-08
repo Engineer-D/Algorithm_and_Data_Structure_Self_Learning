@@ -3,3 +3,7 @@ This is a repository of me learning Algorithms and Data Structure Hopefully when
 
 Day 1:
 Understanding Linked List and Coding it
+improved the code and make it look a little more professional.
+
+Day 2:
+Did more project on linked list, it's fun but brain tasking cuz OMO!!
