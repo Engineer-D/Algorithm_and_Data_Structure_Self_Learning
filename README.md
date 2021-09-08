@@ -7,3 +7,6 @@ improved the code and make it look a little more professional.
 
 Day 2:
 Did more project on linked list, it's fun but brain tasking cuz OMO!!
+Understanding Stacks, Stacks are cool and less stressfull tho,
+Understanding Queues, Deques, Priority Queue,  it's getting more fun
+Time for some more research on implementation of List based collections
