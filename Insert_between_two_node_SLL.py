@@ -2,7 +2,7 @@
     task:
         create a unit
         create a linkedlist
-        insert new node at the begining of linked list
+        insert new node between two linked list
 """
 
 class Node(object):

@@ -36,8 +36,16 @@ class LinkedList(object):
             current = current.next
         del(current)
         previous.next = None
-
         return self.printlist()
+
+    #Guide entry
+    def deleteEnd(self):
+        lastnode = self.head
+        while lastnode.next is not None:
+            previousNode = lastnode
+            lastnode = lastnode.next
+        previousNode.next = None
+
 
     def printlist(self):
         if self.head is None:

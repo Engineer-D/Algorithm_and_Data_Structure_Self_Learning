@@ -28,6 +28,7 @@ class LinkedList(object):
         if self.head:
             self.head = newHead
             self.head.next = currentHead
+            del currentHead
         else:
             self.head = newHead
 
