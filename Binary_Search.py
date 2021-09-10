@@ -31,5 +31,5 @@ def BinarySearch(input_array, value):
 test_list = [1,3,9,11,15,19,29]
 test_val1 = 25
 test_val2 = 15
-print(BinarySearch(test_list[:2], test_val1))
-print(BinarySearch(test_list[2:], test_val2))
+print(BinarySearch(test_list, test_val1))
+print(BinarySearch(test_list, test_val2))
