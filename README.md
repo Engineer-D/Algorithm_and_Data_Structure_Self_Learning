@@ -25,3 +25,9 @@ for the iterative approach I did well.
 Day 4:
     Sorting Algorithms Interesting, BubbleSort quite cool and funny
     MergeSort also cool
+
+Day 5:
+    Picking up where we left from, QuickSort is cool still trying to wrap my
+    head around it. would watch some vidoes online. Also checked out another stle of mergesort
+    which I don't really fancy because of the the many loops in it and I feel space is being wasted
+    

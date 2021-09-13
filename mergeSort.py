@@ -1,6 +1,8 @@
 """
     Task:
         break the array into 1 piece
+        sort it pair by pair
+        continue the chain till you get the full array back
 """
 
 def mergeSort(input_array):
