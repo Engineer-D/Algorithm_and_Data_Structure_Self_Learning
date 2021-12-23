@@ -31,3 +31,6 @@ Day 5:
     head around it. would watch some vidoes online. Also checked out another stle of mergesort
     which I don't really fancy because of the the many loops in it and I feel space is being wasted
     
+23/12/2021
+Been out for a while, Finally back on track. 
+Done with Udacity course now solving Algorithms and Developing myself
